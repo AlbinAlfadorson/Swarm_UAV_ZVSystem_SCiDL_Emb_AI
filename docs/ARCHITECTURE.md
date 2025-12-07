@@ -3,13 +3,13 @@
 ```mermaid
 graph TB
     subgraph "Ground Segment"
-        BS["Hive Base Station<br/>NVIDIA Jetson Orin"]
-        PS["Power System<br/>Solar + 48V LiFePO4"]
-        CS["Charging System<br/>Auto Battery Swap"]
+        BS["Базовая станция |Улейn| <br/>NVIDIA Jetson Орин"]
+        PS["Энерго система<br/>Solar + 48V LiFePO4"]
+        CS["Система зарядки<br/>Auto Battery Swap"]
     end
     
     subgraph "Air Segment - Swarm"
-        QU["Queen UAV<br/>Qualcomm QRB5165 + Edge TPU"]
+        QU["Queen(центральный узел) UAV<br/>Socionext SynQuacer (24-ядра ARM) + CPU-only инференс"]
         W1["Worker UAV 1<br/>STM32H7 + ESP32-S3"]
         W2["Worker UAV 2<br/>STM32H7 + ESP32-S3"]
         RU["Refuel UAV<br/>Fuel Cell + Docking"]
