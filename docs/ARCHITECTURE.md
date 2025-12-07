@@ -15,7 +15,7 @@ graph TB
         RU["Refuel UAV<br/>Fuel Cell + Docking"]
     end
     
-    BS -->|LoRa 868MHz| QU(королева)
+    BS -->|LoRa 868MHz| QU(королева) 
     BS -->|Ethernet| PS(внешний мир)
     PS --> CS
     QU -->|ESP-NOW Mesh| W1
