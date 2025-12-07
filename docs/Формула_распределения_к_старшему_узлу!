@@ -1,0 +1,16 @@
+# Множество дронов
+set Drones;
+
+# Параметры
+param In {i in Drones};  # Входные данные каждого дрона
+param W  {i in Drones};  # Вес каждого дрона
+
+# Переменная результата
+var Q;
+
+# Формула взвешенной суммы
+subject to Queen_Input:
+    Q = sum{i in Drones} (W[i] * In[i]);  # Королева получает сумму In[i]*W[i]
+
+# Вывод результата
+display Q;
