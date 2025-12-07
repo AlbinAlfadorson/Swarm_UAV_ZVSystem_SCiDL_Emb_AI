@@ -9,13 +9,13 @@ graph TB
     end
     
     subgraph "Air Segment - Swarm"
-        QU["Queen(центральный узел) UAV<br/>Socionext SynQuacer (24-ядра ARM) + CPU-only инференс"]
+        QU["Queen(центральный узел)UAV<br/>Socionext SynQuacer(24-ядра ARM)"]
         W1["Worker UAV 1<br/>STM32H7 + ESP32-S3"]
         W2["Worker UAV 2<br/>STM32H7 + ESP32-S3"]
         RU["Refuel UAV<br/>Fuel Cell + Docking"]
     end
     
-    BS -->|LoRa 868MHz| QU
+    BS -->|LoRa 868MHz| QU(королева)
     BS -->|Ethernet| PS
     PS --> CS
     QU -->|ESP-NOW Mesh| W1
