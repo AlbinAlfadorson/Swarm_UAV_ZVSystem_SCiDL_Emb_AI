@@ -17,7 +17,7 @@ graph TB
     
     BS -->|LoRa 868MHz| QU(королева)
     BS -->|Ethernet| PS(внешний мир)
-    PS --> CS
+    PS --> CS(модули увеличивают автономность трутней до 35% от заявленной на первом стенде)
     QU -->|ESP-NOW Mesh| W1
     QU -->|ESP-NOW Mesh| W2
     W1 -.->|Data Relay| W2
