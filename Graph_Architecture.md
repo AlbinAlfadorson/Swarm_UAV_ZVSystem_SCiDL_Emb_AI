@@ -13,7 +13,7 @@ ZV-Legacy-Embedded-Erchitecture-AI-Swarm-System/          # Твой основ�
 │   ├── computer_vision/      # OpenCV/YOLO
 │   ├── swarm_algorithms/     # Роевые алгоритмы
 │   └── simulation/           # Gazebo/ROS2 симуляции
-├── docs/                      # ⭐⭐⭐ ВОТ ЭТА ДОКУМЕНТАЦИЯ ⭐⭐⭐
+├── docs/                      # ДОКУМЕНТАЦИЯ
 │   ├── ARCHITECTURE.md       # Главный архитектурный документ
 │   ├── DECISIONS.md          # Архитектурные решения
 │   ├── DEPLOYMENT.md         # Инструкции развертывания
