@@ -1,3 +1,4 @@
+```mermaid
 graph TB
     ROOT["<b>ZV-Legacy-Embedded-Erchitecture<br/>AI-Swarm-System/</b>"]
     
@@ -88,3 +89,4 @@ graph TB
     
     %% Особые классы для текста
     class CI_CD,SKIDL_SCRIPTS,KICAD_PROJECTS,GERBER_FILES,BOM_FILES,FLIGHT_CONTROLLER,SWARM_LOGIC,OPENCV_YOLO,SWARM_ALGORITHMS,GAZEBO_ROS,AUTO_TESTS text
+```
