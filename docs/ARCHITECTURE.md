@@ -3,7 +3,7 @@
 ```mermaid
 graph TB
     subgraph "Ground Segment"
-        BS["Базовая станция |Улейn| <br/>NVIDIA Jetson Орин"]
+        BS["Базовая станция |РойZV| <br/>NVIDIA Jetson Орин"]
         PS["Энерго система<br/>Solar + 48V LiFePO4"]
         CS["Система зарядки<br/>Auto Battery Swap"]
     end
