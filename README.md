@@ -2,34 +2,34 @@
 HW: SKiDL/KiCad7 | AI: OpenCV/YOLO/Swarm-Algorithms |  Comms: LoRa/ESP-NOW/Mesh| Embedded: STM32/ESP32 -  SKiDL/KiCad 7 | Python 3.11+ | Poetry | Cython | ROS 2 Humble | OpenCV | TensorFlow Lite
 # 🚁 ZV_Legacy - Embedded, electronics, AI Swarm System: Autonomous Rescue Drone Swarm
 
-> **Full-stack autonomous AI drone swarm system for search & rescue, firefighting, and combat zone operations**
+> **Полностью автономная система роя дронов с искусственным интеллектом для поисково-спасательных работ, тушения пожаров и операций в зонах боевых действий**
 
-## 🎯 Tech Stack
+## 🎯 Технологический стек
 
-### **Hardware Design**
-- **SKiDL** → **KiCad 7** (Schematic/PCB design as code)
-- **Manufacturing**: JLCPCB / PCBWay ready Gerbers
+### **Проектирование оборудования**
+- **SKiDL** → **KiCad 7** (проектирование схем/печатных плат как код)
+- **Производство**: готовые Gerber-файлы JLCPCB / PCBWay
 
-### **Embedded & Firmware**
-- **MCUs**: STM32H7 (flight control) + ESP32-S3 (swarm logic)
+### **Встроенные системы и микропрограммы**
+- **Микроконтроллеры**: STM32H7 (управление полетом) + ESP32-S3 (логика роя)
 - **RTOS**: FreeRTOS / Zephyr
-- **Communication**: LoRa (long-range), ESP-NOW (swarm mesh), 4G LTE backup
+- **Связь**: LoRa (дальнего действия), ESP-NOW (сетчатая сеть роя), резервное копирование 4G LTE
 
-### **AI & Computer Vision**
-- **Python 3.11+** with **Poetry** for dependency management
-- **OpenCV 4.8** + **YOLOv8** for object detection
-- **Custom Swarm Algorithms**: Distributed SLAM, Dynamic Task Allocation
-- **TensorFlow Lite** / **PyTorch Mobile** for edge inference
+### **Искусственный интеллект и компьютерное зрение**
+- **Python 3.11+** с **Poetry** для Управление зависимостями
+- **OpenCV 4.8** + **YOLOv8** для обнаружения объектов
+- **Собственные алгоритмы роевого интеллекта**: распределенный SLAM, динамическое распределение задач
+- **TensorFlow Lite** / **PyTorch Mobile** для вывода данных на периферии сети
 
-### **Swarm Intelligence & Middleware**
-- **ROS 2 (Humble)** with Micro-ROS for embedded nodes
-- **Custom Swarm OS**: Distributed decision making, predictive refueling
-- **Mesh Networking**: Automatic topology management, fault tolerance
+### **Ройовой интеллект и промежуточное ПО**
+- **ROS 2 (Humble)** с Micro-ROS для встроенных узлов
+- **Собственная ОС роевого интеллекта**: распределенное принятие решений, прогнозируемая заправка топливом
+- **Сетевая топология**: автоматическое управление топологией, отказоустойчивость
 
-### **Development & DevOps**
-- **Cython** for performance-critical Python modules
-- **Docker** containers for simulation environments
-- **GitHub Actions** CI/CD for both hardware and software
-- **pytest** for automated testing
+### **Разработка и DevOps**
+- **Cython** для критически важных по производительности модулей Python
+- **Docker** контейнеры для сред моделирования
+- **GitHub Actions** CI/CD для оборудования и программного обеспечения
+- **pytest** для автоматизированного тестирования
 
 
